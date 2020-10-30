@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{25ed5599-2777-428b-97a1-d7dd3bcd906a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Components">
+      <UniqueIdentifier>{d75d4bdd-72a8-42f8-a633-b329a9e1b42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{55127d23-ccc8-42d9-887e-ee2b3dd63666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{6c07cd47-57d3-4101-8104-242bf7d8bb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Messages">
+      <UniqueIdentifier>{8af272d7-3356-451d-b482-808042e09956}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1DGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\component.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\world.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\graphics.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\renderable.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\charactermovement_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\render_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\input_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\shoot_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\bulletmovement_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\enemymovement_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Components\collision_comp.cpp">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entities\entity.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\component.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\graphics.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\world.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\render_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\renderable.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\charactermovement_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Messages\message.h">
+      <Filter>Source Files\Entities\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Messages\newpos_msg.h">
+      <Filter>Source Files\Entities\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\input_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\shoot_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\bulletmovement_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Messages\newbullet_msg.h">
+      <Filter>Source Files\Entities\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Messages\bulletdeleted_msg.h">
+      <Filter>Source Files\Entities\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\enemymovement_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Components\collision_comp.h">
+      <Filter>Source Files\Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Messages\collision_msg.h">
+      <Filter>Source Files\Entities\Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
